@@ -934,7 +934,7 @@ img {
     border-radius: 2px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     width: 70%;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 .code {
@@ -1005,7 +1005,7 @@ img {
         border-radius: 2px;
         box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         width: 100%;
-        margin-left: 17%;
+        margin-left: 5%;
     }
     .project-title {
         font-size: 14px;
