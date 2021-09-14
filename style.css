@@ -980,3 +980,8 @@ img {
     transform: trnaslateX(0);
     transition: transform 0.3s ease-out;
 }
+
+.app {
+    text-transform: capitalize;
+    font-size: 2rem;
+}
