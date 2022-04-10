@@ -598,7 +598,6 @@ footer {
     font-weight: 600;
     letter-spacing: 5px;
     border-bottom: 5px groove var(--main-blue);
-    border-radius: 5px;
 }
 
 #reg {
@@ -665,6 +664,26 @@ footer {
     font-style: italic;
     list-style: none;
     text-shadow: -2px -1px 16px rgba(0, 0, 0, 0.61);
+}
+
+.fa-html5 { 
+    color: #d62332;
+}
+
+.fa-css3-alt { 
+    color: #0533b3;
+}
+
+.fa-js-square {  
+    color: #d3d623;
+}
+
+.fa-react { 
+    color: #00e6f7;
+}
+
+.fa-python { 
+    color: rgb(187, 255, 0); 
 }
 
 .prog {
@@ -860,11 +879,20 @@ footer {
     border-bottom: 0.2rem solid var(--main-white);
 }
 
+.btn-show-all {
+    color: var(--main-white);
+}
+
 
 @media (max-width: 28.75rem) {
     .projects-section-header {
-        font-size: 3rem;
+        font-size: 2rem;
         margin-top: 4rem;
+    }
+    .profile__card {
+        margin-top: 3rem;
+        width: 70%;
+        
     }
 }
 
