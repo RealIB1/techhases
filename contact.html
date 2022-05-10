@@ -34,7 +34,7 @@
                 <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
-                        <div class="msgs">
+                        <!-- <div class="msgs">
                             <div class="msg-contents alert alert-success">
                                 <div class="ui positive submit message">
                                   <i class="close close-positive icon"></i>
@@ -43,7 +43,7 @@
                                   </div>
                                   <p class="msg-description">Your message has been successfully submitted. Thank you!</p>
                                 </div>
-                              </div>
+                              </div> -->
                               </div>                            
                           </div>
                   </div>
@@ -56,7 +56,7 @@
             </span>
             </h2>
             <div class="contact__form-container">
-                <form action="#" method="post" class="contact__form" id="form_fill">
+                <form action="#" method="POST"  class="contact__form"  onsubmit="javascrip:alert('Success!\nYour message has been successfully submitted. Thank you!')">
                     <div class="contact__form-field">
                         <label class="contact__form-label" for="name">First Name</label>
                         <input required placeholder="Enter Your First Name" type="text" class="contact__form-input" name="firstname" id="firstname" />
@@ -73,7 +73,7 @@
                         <label class="contact__form-label" for="messages">Message</label>
                         <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message" name="messages" id="messages"></textarea>
                     </div>
-                    <button type="submit" class="btn btn--theme submit-msg-btn contact__btn" id="form_submit" name="contact_btn">Submit</button>
+                    <button type="submit" class="btn btn--theme contact__btn" id="form_submit" name="contact_btn">Submit</button>
                 </form>
                   </div>
             </div>
