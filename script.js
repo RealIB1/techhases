@@ -1,21 +1,16 @@
-$(document).ready(function(event) {
-  $(".msgs").hide();
-  $("#from_submit").click(function(event) {
-  $(".contact__form").submit(function(event) {
-    $(".msgs").show()
-    .transition({
-      animation: "fade down",
-      interval: 5000,
-      duration: 3000
-    })
-      .transition({
-        animation: "fly left",
-        interval: 5000,
-        duration: 3000
-      });
-      event.preventDefault();
-  });
-  event.preventDefault();
-});
-event.preventDefault();
-});
+const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+    const navLink = document.querySelectorAll(".nav-link");
+    
+    hamburger.addEventListener("click", mobileMenu);
+    navLink.forEach(n => n.addEventListener("click", closeMenu));
+    
+    function mobileMenu() {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    }
+    
+    function closeMenu() {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+    }

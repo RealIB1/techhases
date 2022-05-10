@@ -16,25 +16,30 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <h1 id="header" class="navlinks">
-            <a href="index.html"><img src="profile.png" alt="page profile" id="profile_page"> 1RealIB</a>
-        </h1>
-        <ul class="navlinks">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo"><img src="profile.png" alt="page profile" id="profile_page">1RealIB</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
     <section id="contact" class="contact sec-pad dynamicBg">
         <div class="main-container">
             <h2 class="heading heading-sec heading-sec__mb-med">
                 <!-- <span class="heading-sec__main heading-sec__main--lt"><center>Contact</center></span><br> -->
-                <div class="row">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-10">
-                        <div class="msgs">
+                <!-- <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <div class="msgs" id="msg">
                             <div class="msg-contents alert alert-success">
                                 <div class="ui positive submit message">
                                   <i class="close close-positive icon"></i>
@@ -46,8 +51,8 @@
                               </div>
                               </div>                            
                           </div>
-                  </div>
-                  <div class="col-md-1"></div>
+                          <div class="col-md-2"></div>
+                  </div> -->
                   </div>
                   </div>
                 <span class="heading-sec__sub heading-sec__sub--lt">
@@ -56,13 +61,13 @@
             </span>
             </h2>
             <div class="contact__form-container">
-                <form class="contact__form">
+                <form class="contact__form" onsubmit="javascript:alert('Your message has been successfully submitted. Thank you!')">
                     <div class="contact__form-field">
                         <label class="contact__form-label" for="name">First Name</label>
                         <input required placeholder="Enter Your First Name" type="text" class="contact__form-input" name="firstname" id="firstname" />
                     </div>
                     <div class="contact__form-field">
-                        <label class="contact__form-label" for="lastname">Last Name</label>
+                        <label class="contact__form-label" for="name">Last Name</label>
                         <input required placeholder="Enter Your Last Name" type="text" class="contact__form-input" name="lastname" id="lastname" />
                     </div>
                     <div class="contact__form-field">
