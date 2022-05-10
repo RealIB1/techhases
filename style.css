@@ -1096,17 +1096,17 @@ footer {
 }
 
 .msg-description {
-    font-size: 0.8em;
+    font-size: 0.1em;
     display: inline-block;
 }
 
-.msg {
+.msgs {
   display: flex;
   flex-direction: column;
   width: 500px;
-  height: 80px;
+  height: 50px;
   position: absolute;
-  display:'none';
+  display: none;
   top: 0;
   bottom: 0;
   right: 0;
@@ -1115,7 +1115,8 @@ footer {
   margin-top: 128px;
 }
 
-.msg-container {
+.msg-contents {
+  display: none;
   position: relative;
   height: 100px;
 }
