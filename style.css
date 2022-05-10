@@ -341,7 +341,6 @@ body {
   display: block;
   position: absolute;
   bottom: 0;
-  width: 100vh;
   background: var(--main-blue);
   color: #fff;
   text-align: center;
