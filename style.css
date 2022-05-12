@@ -529,7 +529,7 @@ li {
   .nav-menu {
       position: fixed;
       left: 100%;
-      top: 4rem;
+      top: 4.5rem;
       flex-direction: column;
       background-color: var(--main-red);
       width: 100%;
