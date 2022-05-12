@@ -503,7 +503,7 @@ li {
 }
 
 .nav-item {
-  margin-left: 5rem;
+  margin-left: 1rem;
 }
 
 .nav-link{
@@ -513,11 +513,7 @@ li {
 }
 
 .nav-link:hover, .nav-logo:hover{
-  /* background: var(--main-blue); */
   text-decoration: 0.4rem solid underline var(--main-blue);
-  /* border-bottom: 3px solid var(--main-blue); */
-  /* padding: 0; */
-  /* border-radius: 6px; */
   box-shadow: 0 8px 3px -16px var(--main-blue);
   color: rgb(235, 228, 228);
 
